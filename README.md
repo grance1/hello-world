@@ -1,2 +1,2 @@
-/user/bin/python2.7
-print hello world
+#!/user/bin/python2.7
+print "this is a function"
