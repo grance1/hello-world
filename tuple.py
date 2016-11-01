@@ -73,5 +73,15 @@ TypeError: 'tuple' object does not support item assignment
 >>> t = ()
 >>> t
 ()
+>>> t=('a','b',['A','B'])
+>>> t
+('a', 'b', ['A', 'B'])
+>>> L=t[2]
+>>> L
+['A', 'B']
+>>> L[0]='X'
+>>> L[1]='Y'
+>>> t
+('a', 'b', ['X', 'Y'])
 
 
