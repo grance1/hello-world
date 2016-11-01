@@ -22,3 +22,16 @@ print b
 >>> a=1,2
 >>> a
 (1, 2)
+>>> t = ('Adam','Lisa','Bart')
+>>> t
+('Adam', 'Lisa', 'Bart')
+>>> t[-1]
+'Bart'
+>>> t[0]='Paul'
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> t=(0,1,2,3,4,5,6,7,8,9)
+>>> t
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+
