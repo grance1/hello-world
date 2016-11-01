@@ -34,4 +34,22 @@ TypeError: 'tuple' object does not support item assignment
 >>> t=(0,1,2,3,4,5,6,7,8,9)
 >>> t
 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+>>> t = ()
+>>> t
+()
+>>> t = (1)
+>>> t
+1
+>>> t = (1,)
+>>> t
+(1,)
+>>> t=(1,2,3,)
+>>> t
+(1, 2, 3)
+>>> t=('Adam')
+>>> t
+'Adam'
+>>> t=('Adam',)
+>>> t
+('Adam',)
 
