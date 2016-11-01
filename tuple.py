@@ -52,4 +52,26 @@ TypeError: 'tuple' object does not support item assignment
 >>> t=('Adam',)
 >>> t
 ('Adam',)
+>>> t = ()
+>>> t
+()
+>>> t = (1)
+>>> t
+1
+>>> t = (1,)
+>>> t
+(1,)
+>>> t=(1,2,3,)
+>>> t
+(1, 2, 3)
+>>> t=('Adam')
+>>> t
+'Adam'
+>>> t=('Adam',)
+>>> t
+('Adam',)
+>>> t = ()
+>>> t
+()
+
 
