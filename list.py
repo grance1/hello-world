@@ -56,5 +56,15 @@ xrange(10)
 5
 >>> id(c)
 24596800
+>>> L
+['Adam', 'Lisa', 'Paul']
+>>> L[-1]
+'Paul'
+>>> L[0]='Bart'
+>>> L
+['Bart', 'Lisa', 'Paul']
+>>> L[-1]='Adam'
+>>> L
+['Bart', 'Lisa', 'Adam']
 
 
