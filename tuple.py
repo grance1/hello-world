@@ -1,4 +1,4 @@
-#!/user/bin/python2.7
+#!/usr/bin/python2.7
 b=('2','tuple')
 print b
 >>> a_tuple=('a',)
