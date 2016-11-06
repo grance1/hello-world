@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/python
 a=['list','tuple','function']
 print a
 >>> aList=[3,5,7]
