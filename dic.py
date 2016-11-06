@@ -1,4 +1,4 @@
-#!/user/bin/python2.7
+#!/usr/bin/python2.7
 >>> a=(1,2,3,4,5)
 >>> b='hello world.'
 >>> def demo():
