@@ -1,4 +1,4 @@
-#!/user/bin/python2.7
+#!/usr/bin/python2.7
 >>> L=['Adam','Lisa','Bart','Paul']
 >>> L.pop()
 'Paul'
