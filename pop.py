@@ -16,6 +16,12 @@ SyntaxError: invalid syntax
 ['Adam', 'Lisa', 'Bart']
 >>> L.pop(2)
 'Bart'
+>>> L.pop(2)
+'Paul'
+>>> ;
+  File "<input>", line 1
+    ;
+    ^
 >>> L=['Adam','Lisa','Paul','Bart']
 >>> L.pop(2)
 'Paul'
