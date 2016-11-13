@@ -9,6 +9,7 @@ print int('123')
 print int(12.34)
 print str(123)
 print str(1.23)
+print str('1.23')
 from math import fsum
 L = []
 # print L
