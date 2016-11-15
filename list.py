@@ -70,5 +70,15 @@ xrange(10)
 >>> a
 [3, 4, 5, 6, 7]
 >>> a=[1,2,3,4]
+>>> L
+['Adam', 'Lisa', 'Paul']
+>>> L[-1]
+'Paul'
+>>> L[0]='Bart'
+>>> L
+['Bart', 'Lisa', 'Paul']
+>>> L[-1]='Adam'
+>>> L
+['Bart', 'Lisa', 'Adam']
 
 
