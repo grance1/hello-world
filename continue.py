@@ -27,3 +27,9 @@ while True:
         continue
     sum = sum + x
 print sum
+for x in L:
+    if x < 60:
+        continue
+    sum = sum + x
+    n = n + 1
+print sum / n
