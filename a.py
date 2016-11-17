@@ -10,3 +10,9 @@ def greeting(name):
         return _private_1(name)
     else:
         return _private_2(name)
+class Student(object):
+    pass
+
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
