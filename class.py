@@ -50,5 +50,9 @@ print bart
 print Student
 bart.name = 'Bart Simpson'
 print bart.name
+bart = Student('Bart Simpson', 59)
+print bart.print_score()
+print bart.get_grade()
+
 
 
