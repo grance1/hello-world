@@ -42,3 +42,13 @@ class Student(object):
         print('%s: %s' % (self.__name, self.__score))
 bart = Student('Bart Simpson', 98)
 print  bart.__name
+class Student(object):
+    pass
+
+bart = Student()
+print bart
+print Student
+bart.name = 'Bart Simpson'
+print bart.name
+
+
