@@ -30,3 +30,7 @@ print int('123')
 print int(12.34)
 print str(123)
 print str(1.23)
+def greet(name='world'):
+        print 'Hello,'+ name+'.'
+print greet()
+print greet('Bart')
