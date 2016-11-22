@@ -53,6 +53,24 @@ print bart.name
 bart = Student('Bart Simpson', 59)
 print bart.print_score()
 print bart.get_grade()
+class Dog(Animal):
+
+    def run(self):
+        print('Dog is running...')
+
+    def eat(self):
+        print('Eating meat...')
+class Dog(Animal):
+
+    def run(self):
+        print('Dog is running...')
+
+class Cat(Animal):
+
+    def run(self):
+        print('Cat is running...')
+dog = Dog()
+print dog.run()
 
 
 
