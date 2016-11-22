@@ -71,6 +71,16 @@ class Cat(Animal):
         print('Cat is running...')
 dog = Dog()
 print dog.run()
+class Animal(object):
+    def run(self):
+        print('Animal is running...')
+class Dog(Animal):
+    pass
+
+class Cat(Animal):
+    pass
+dog = Dog()
+print dog.run()
 
 
 
