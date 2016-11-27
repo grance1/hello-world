@@ -81,6 +81,10 @@ class Cat(Animal):
     pass
 dog = Dog()
 print dog.run()
+bart = Student('Bart Simpson',59)
+lisa = Student('Lisa Simpson',87)
+print bart.print_score()
+print lisa.print_score()
 
 
 
