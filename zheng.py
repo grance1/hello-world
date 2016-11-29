@@ -9,3 +9,16 @@ if re.match(r'正则表达式',test):
     print('ok')
 else:
     print('failed')
+
+
+>>> 'a b  c'.split('')
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+ValueError: empty separator
+>>> re.split(r'\s+','a b  c')
+['a', 'b', 'c']
+>>> re.split(r'[\s\,]+','a,b,c d')
+['a', 'b', 'c', 'd']
+>>> re.split(r'[\s\,\;]+', 'a,b;; c  d')
+['a', 'b', 'c', 'd']
+
