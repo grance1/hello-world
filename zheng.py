@@ -36,4 +36,12 @@ ValueError: empty separator
     t)
 >>> m.group()
 '19:05:30'
+>>> re.match(r'^(\d+?)(0*)$', '102300').groups()
+('1023', '00')
+>>> re_telephone = re.compile(r'^(\d{3})-(\d{3,8})$')
+>>> re_telephone.match('010-12345').groups()
+('010', '12345')
+>>> re_telephone.match('010-8086').groups()
+('010', '8086')
+
 
