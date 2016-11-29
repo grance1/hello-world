@@ -21,4 +21,13 @@ ValueError: empty separator
 ['a', 'b', 'c', 'd']
 >>> re.split(r'[\s\,\;]+', 'a,b;; c  d')
 ['a', 'b', 'c', 'd']
+>>> m = re.match(r'^(\d{3})-(\d{3,8})$', '010-12345')
+>>> m
+<_sre.SRE_Match object at 0x7fcbcde5c2d8>
+>>> m.group(0)
+'010-12345'
+>>> m.group(1)
+'010'
+>>> m.group(2)
+'12345'
 
