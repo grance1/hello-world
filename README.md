@@ -1,3 +1,3 @@
 #!/usr/bin/python2.7
-print "this is a list and tuple file"
+print "There are some files,including list、tuple、reduce、map、function、break files and so on"
 print "add some function class"
